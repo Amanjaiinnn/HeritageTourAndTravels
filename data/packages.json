@@ -1,0 +1,35 @@
+[
+  {
+    "id": 101,
+    "title": "Kashmir Paradise — Srinagar, Gulmarg & Pahalgam",
+    "slug": "kashmir-paradise",
+    "image": "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?q=80&w=1200&auto=format&fit=crop",
+    "duration": "4N/5D",
+    "location": "Kashmir, India",
+    "summary": "Houseboats, gondolas and pine valleys in a relaxed-paced itinerary.",
+    "itinerary": ["Arrive Srinagar", "Gulmarg day trip", "Pahalgam day trip", "Local sightseeing", "Departure"],
+    "tags": ["family", "nature"]
+  },
+  {
+    "id": 102,
+    "title": "Maldives Overwater Escape",
+    "slug": "maldives-escape",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop",
+    "duration": "3N/4D",
+    "location": "Maldives",
+    "summary": "Pristine lagoons, coral reefs and barefoot luxury vibes.",
+    "itinerary": ["Check-in & relax", "Reef snorkeling", "Resort activities", "Departure"],
+    "tags": ["romantic", "beach"]
+  },
+  {
+    "id": 103,
+    "title": "Leh–Ladakh Highlights",
+    "slug": "ladakh-highlights",
+    "image": "https://images.unsplash.com/photo-1601297183305-6df14243f51c?q=80&w=1200&auto=format&fit=crop",
+    "duration": "5N/6D",
+    "location": "Ladakh, India",
+    "summary": "High passes, ancient monasteries and surreal lakes.",
+    "itinerary": ["Leh arrival & acclimatization", "Sham valley", "Nubra via Khardung La", "Pangong", "Leh local", "Departure"],
+    "tags": ["adventure", "mountains"]
+  }
+]
