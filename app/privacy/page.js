@@ -1,0 +1,1 @@
+export default function Privacy(){return (<div className='section prose'><h1>Privacy Policy</h1><p>Demo content.</p></div>);}
