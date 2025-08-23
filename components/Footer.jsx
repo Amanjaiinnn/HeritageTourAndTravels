@@ -74,6 +74,20 @@ export default function Footer() {
           </a>
         </div>
       </div>
+      <div className="flex items-start gap-2">
+        <MapPin className="w-4 h-4 mt-1 text-brand-700" />
+        <div>
+          <span className="font-semibold">Address 3:</span>{" "}
+          <a 
+            href="https://www.google.com/maps/search/?api=1&query=H.+N.+51,+Village+Banarki,+Ramnagar,+Barabanki,+UP-225201" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-brand-700"
+          >
+            Shankar Steel Opposite Ramlila Maidan Gorakhnath, Gorakhpur- 273015
+          </a>
+        </div>
+      </div>
 
       {/* Email (Optional if you want it) */}
       <div className="flex items-start gap-2">

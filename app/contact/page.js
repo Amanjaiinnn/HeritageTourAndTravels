@@ -34,6 +34,17 @@ export default function ContactPage() {
             Address: H. N. 51, Village Banarki, Ramnagar, Barabanki UP-225201
           </a>
         </div>
+        <div className="flex items-start gap-3">
+          <MapPin className="w-5 h-5 text-blue-600 mt-1" />
+          <a 
+            href="https://www.google.com/maps/search/?api=1&query=H.+N.+51,+Village+Banarki,+Ramnagar,+Barabanki,+UP-225201" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-brand-700"
+          >
+            Address: Shankar Steel Opposite Ramlila Maidan Gorakhnath, Gorakhpur- 273015
+          </a>
+        </div>
 
         {/* Phone Numbers */}
         <div className="flex items-center gap-3">

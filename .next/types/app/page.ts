@@ -1,4 +1,4 @@
-// File: C:\Users\Aman\Downloads\travel-modern-nodb\app\page.js
+// File: C:\Users\Aman\Documents\travel\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
