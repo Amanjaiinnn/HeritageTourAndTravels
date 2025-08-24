@@ -65,7 +65,7 @@ export default function Footer() {
         <div>
           <span className="font-semibold">Address 2:</span>{" "}
           <a 
-            href="https://www.google.com/maps/search/?api=1&query=H.+N.+51,+Village+Banarki,+Ramnagar,+Barabanki,+UP-225201" 
+            href="https://maps.app.goo.gl/SzvDms7rmchz9c5L9?g_st=aw" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-brand-700"
@@ -79,7 +79,7 @@ export default function Footer() {
         <div>
           <span className="font-semibold">Address 3:</span>{" "}
           <a 
-            href="https://www.google.com/maps/search/?api=1&query=H.+N.+51,+Village+Banarki,+Ramnagar,+Barabanki,+UP-225201" 
+            href="https://maps.app.goo.gl/bgrE4jAb1mBCqGkj6" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-brand-700"

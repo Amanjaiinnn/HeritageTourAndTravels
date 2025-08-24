@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Hero from "@/components/Hero";
 import DestinationCard from "@/components/DestinationCard";
 import PackageCard from "@/components/PackageCard";
+import CityCarousel from "@/components/CityCarousel";
 
 export default function HomePage() {
   const [destinations, setDestinations] = useState([]);
@@ -16,6 +17,8 @@ export default function HomePage() {
   return (
     <div>
       <Hero />
+
+      <CityCarousel />
 
       <section id="destinations" className="section">
         <div className="flex items-center justify-between">
