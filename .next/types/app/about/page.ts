@@ -1,4 +1,4 @@
-// File: C:\Users\Aman\Documents\travel\app\about\page.js
+// File: C:\Users\singh\OneDrive\Desktop\HeritageTourAndTravels\app\about\page.js
 import * as entry from '../../../../app/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
