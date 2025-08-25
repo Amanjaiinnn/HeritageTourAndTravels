@@ -1,41 +1,45 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 const cities = [
   {
     name: "Lucknow",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1400&auto=format&fit=crop",
+    image: "/luck.jpg",
     link: "/goa",
   },
   {
     name: "Gorakpur",
-    image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1400&auto=format&fit=crop",
+    image: "/Gorakhnath.jpg",
     link: "/maharashtra",
   },
   {
     name: "Barabanki",
-    image: "https://images.unsplash.com/photo-1598373182133-523aa4b44afc?q=80&w=1400&auto=format&fit=crop",
+    image: "/chandra.png",
     link: "/uttarakhand",
   },
   {
     name: "Varanasi",
-    image: "https://images.unsplash.com/photo-1504274066651-8d31a536b11a?q=80&w=1400&auto=format&fit=crop",
+    image: "/ghat.jpg",
     link: "/dubai",
   },
   {
     name: "Ayodhya",
-    image: "https://images.unsplash.com/photo-1581320546602-19a1a5d41b8b?q=80&w=1400&auto=format&fit=crop",
+    image: "/ayodhya.jpg",
     link: "/vrindavan",
   },
   {
     name: "Raebareli",
-    image: "https://images.unsplash.com/photo-1589386417689-791db56b67c5?q=80&w=1400&auto=format&fit=crop",
+    image: "/rae.jpg",
     link: "/varanasi",
   },
 ];
 
 const CityCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Swipe tracking
+  const touchStartX = useRef(null);
+  const touchEndX = useRef(null);
 
   const handlePrev = () => {
     setCurrentIndex((prev) => (prev === 0 ? cities.length - 1 : prev - 1));
@@ -46,13 +50,41 @@ const CityCarousel = () => {
   };
 
   const getVisibleCities = () => {
-    // Show 1 city on mobile, 3 on larger screens
-    const visibleCount = typeof window !== "undefined" && window.innerWidth < 768 ? 1 : 3;
+    const visibleCount =
+      typeof window !== "undefined" && window.innerWidth < 768 ? 1 : 3;
     const visible = [];
     for (let i = 0; i < visibleCount; i++) {
       visible.push(cities[(currentIndex + i) % cities.length]);
     }
     return visible;
+  };
+
+  // Touch Handlers
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.targetTouches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.targetTouches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStartX.current || !touchEndX.current) return;
+
+    const delta = touchStartX.current - touchEndX.current;
+
+    const swipeThreshold = 50; // px
+    if (delta > swipeThreshold) {
+      // Swiped left → next
+      handleNext();
+    } else if (delta < -swipeThreshold) {
+      // Swiped right → prev
+      handlePrev();
+    }
+
+    // reset
+    touchStartX.current = null;
+    touchEndX.current = null;
   };
 
   return (
@@ -70,15 +102,20 @@ const CityCarousel = () => {
           ‹
         </button>
 
-        {/* City Blocks */}
-        <div className="flex justify-center w-full gap-6 overflow-hidden">
+        {/* Swipe Wrapper */}
+        <div
+          className="flex justify-center w-full gap-6 overflow-hidden"
+          onTouchStart={handleTouchStart}
+          onTouchMove={handleTouchMove}
+          onTouchEnd={handleTouchEnd}
+        >
           {getVisibleCities().map((city, index) => (
             <a
               key={index}
               href={city.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative flex-1 max-w-25 h-28 md:h-36 rounded-full shadow-lg overflow-hidden flex items-center justify-center transform hover:scale-105 transition duration-3  00"
+              className="relative flex-1 max-w-25 h-28 md:h-36 rounded-full shadow-lg overflow-hidden flex items-center justify-center transform hover:scale-105 transition duration-300"
               style={{
                 backgroundImage: `url(${city.image})`,
                 backgroundSize: "cover",

@@ -1,6 +1,9 @@
 {
-  "/about/page": "app/about/page.js",
-  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/terms/page": "app/terms/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/api/destinations/route": "app/api/destinations/route.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/api/packages/route": "app/api/packages/route.js",
+  "/page": "app/page.js"
 }
