@@ -4,11 +4,12 @@ import { Phone, MapPin, Mail} from "lucide-react";
 import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { FaEnvelope } from "react-icons/fa";
 import Image from "next/image";
+import { ArrowUp } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200">
-      <div className="section grid md:grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-4 gap-6 py-8 px-4 max-w-6xl mx-auto">
         <div>
           <div className="flex items-center gap-2">
            <Image
@@ -45,7 +46,7 @@ export default function Footer() {
         <div>
           <div className="font-semibold mb-2">Contact</div>
           <div className="text-sm text-slate-600 space-y-2">
-  <div className="text-sm text-slate-600 space-y-3">
+  <div className="text-sm text-slate-600 space-y-2">
       {/* Contact */}
       <div className="flex items-start gap-2">
         <Phone className="w-4 h-4 mt-1 text-brand-700" />
@@ -149,8 +150,24 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-slate-200">
-        <div className="container max-w-6xl mx-auto px-4 py-4 text-xs text-slate-500">&copy; {new Date().getFullYear()} Heritage Tour & Travels. All rights reserved.</div>
-      </div>
+            <div className="container max-w-6xl mx-auto px-4 py-4 flex items-center justify-between text-s text-slate-500">
+              <div>
+                &copy; {new Date().getFullYear()} Heritage Tour & Travels. All rights reserved.
+              </div>
+              <div className="flex items-center gap-4">
+                <a href="/terms" className="hover:text-slate-700 transition">
+                  Terms & Conditions
+                </a>
+                <button
+                          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                          className="p-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition"
+                          aria-label="Back to Top"
+                        >
+                          <ArrowUp className="w-4 h-4" />
+                        </button>
+              </div>
+            </div>
+          </div>
     </footer>
   );
 }
