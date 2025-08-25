@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+
 export const metadata = {
   title: "Voyago — Clean Travel Experiences",
   description: "Modern, responsive travel site with dynamic content (no prices).",
