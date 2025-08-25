@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { @apply bg-slate-50 text-slate-900; }
+
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 font-medium shadow-sm transition; }
+.btn-primary { @apply bg-brand-600 text-white hover:bg-brand-700; }
+.btn-outline { @apply border border-slate-300 hover:bg-slate-100; }
+.card { @apply rounded-2xl border border-slate-200 bg-white shadow-sm; }
+.badge { @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs bg-slate-100; }
+.section { @apply container max-w-6xl py-10 md:py-16; }
+.link { @apply text-brand-700 hover:underline; }
+.prose ul { list-style: disc; padding-left: 1rem; }
+.prose ol { list-style: decimal; padding-left: 1rem; }
+.custom-heading {
+  font-size: 1.8rem;  /* bigger size */
+  color: #177896;     /* Tailwind blue-700 */
+  font-weight: 600;   /* semi-bold */
+  margin-bottom: 0.5rem;
+}
