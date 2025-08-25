@@ -9,7 +9,7 @@ export default function DestinationsPage() {
 
   return (
     <div className="section">
-      <h1 className="text-3xl font-extrabold">All Destinations</h1>
+      <h1 className="text-3xl font-extrabold">Curated Tours</h1>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
         {data.map(item => <DestinationCard key={item.id} item={item} />)}
       </div>

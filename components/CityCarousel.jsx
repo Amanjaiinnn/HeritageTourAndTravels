@@ -90,7 +90,7 @@ const CityCarousel = () => {
   return (
     <section className="w-full py-12 bg-gray-100">
       <h2 className="text-center text-2xl md:text-3xl font-bold text-gray-800 mb-8">
-        Our Services
+        Avaliable at
       </h2>
 
       <div className="relative flex items-center w-full">

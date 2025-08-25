@@ -1,42 +1,54 @@
 [
   {
     "id": 1,
-    "title": "Kashmir",
-    "slug": "kashmir",
-    "image": "https://images.unsplash.com/photo-1593697820630-5cc0f43f6b4f?q=80&w=1200&auto=format&fit=crop",
-    "summary": "Snow-capped peaks, Dal Lake shikaras, and pine valleys.",
-    "highlights": ["Shikara Ride", "Gulmarg Gondola", "Betaab Valley"]
+    "title": "Bundelkhand Forts & Spiritual Heritage (4 Days / 3 Nights)",
+    "slug": "nature-waterfalls-bundelkhand-4days-3nights",
+    "image": "/tour01.jpg",
+    "summary": "Districts: Banda, Mahoba, Chitrakoot .",
+    "highlights": ["Kalinjar Fort",
+      "Vijayraghavgarh Fort",
+      "Hanuman Dhara Temple, Chitrakoot",
+      "Gupta Godavari Caves"]
   },
   {
     "id": 2,
-    "title": "Maldives",
-    "slug": "maldives",
-    "image": "https://images.unsplash.com/photo-1501117716987-c8e7213895b9?q=80&w=1200&auto=format&fit=crop",
-    "summary": "Turquoise lagoons, coral reefs and serene overwater villas.",
-    "highlights": ["Snorkeling", "Sunset Cruise", "Sandbank Picnic"]
+    "title": "Nature & Waterfalls of Bundelkhand (4 Days / 3 Nights)",
+    "slug": "nature-waterfalls-bundelkhand-4days-3nights",
+    "image": "/tour2.jpg",
+    "summary": "Districts: Hamirpur, Banda, Chitrakoot .",
+    "highlights": ["Marpha Waterfalls (Chitrakoot)",
+      "Keoti Waterfalls",
+      "Pandav Caves & Natural Springs",
+      "Ken River Scenic Views"]
   },
   {
     "id": 3,
-    "title": "Ladakh",
-    "slug": "ladakh",
-    "image": "https://images.unsplash.com/photo-1606645223755-453f5c8865ac?q=80&w=1200&auto=format&fit=crop",
-    "summary": "Surreal lakes, high passes and starry skies.",
-    "highlights": ["Pangong Tso", "Nubra Valley", "Khardung La"]
+    "title": "Wildlife, Spiritual & River Trails (5 Days / 4 Nights)",
+    "slug": "wildlife-spiritual-river-trails-5days-4nights",
+    "image": "/tour3.jpg",
+    "summary": "Districts: Chitrakoot, Mahoba, Hamirpur .",
+    "highlights": ["Panna Tiger Reserve Safari",
+      "Ken Gharial Sanctuary",
+      "Ramghat Aarti at Mandakini River",
+      "Mahoba Sun Temple"]
   },
   {
     "id": 4,
-    "title": "Goa",
-    "slug": "goa",
-    "image": "https://images.unsplash.com/photo-1578926375605-eaf7559b145d?q=80&w=1200&auto=format&fit=crop",
-    "summary": "Golden beaches, old forts and vibrant nightlife.",
-    "highlights": ["Calangute", "Basilica of Bom Jesus", "Dudhsagar Falls"]
+    "title": "Royal Bundelkhand & Festival Tour (4 Days / 3 Nights)",
+    "slug": "royal-bundelkhand-festival-tour-4days-3nights",
+    "image": "/tour4.jpg",
+    "summary": "Districts: Chitrakoot, Mahoba.",
+    "highlights": ["Orchha Fort & Jahangir Mahal",
+      "Chaturbhuj Temple",
+      "Ramleela Festival at Chitrakoot",
+      "Folk Dance & Bundeli Music Nights"]
   },
   {
     "id": 5,
-    "title": "Bali",
-    "slug": "bali",
-    "image": "https://images.unsplash.com/photo-1543248939-ff40856f65d1?q=80&w=1200&auto=format&fit=crop",
-    "summary": "Temples, rice terraces and lush waterfalls.",
-    "highlights": ["Ubud", "Nusa Penida", "Sekumpul Waterfall"]
+    "title": "Custom Tours Avaliable",
+    "slug": "custom-tours-avaliable",
+    "image": "/custom.jpg",
+    "summary": "Book your own Vehicle. For further details contact us on Whatsapp",
+    "highlights": ["Tour", "Rental vehicles", "contact us"]
   }
 ]
