@@ -2,17 +2,23 @@ export default function AboutPage() {
   return (
     <div>
       {/* ✅ Hero Section FULL WIDTH */}
-      <div
-        className="w-full flex flex-col items-center justify-center h-[60vh] bg-cover bg-center text-center"
-        style={{ backgroundImage: "url('/tour.jpg')" }}
-      >
-        <h1 className="custom-heading text-4xl md:text-5xl font-bold drop-shadow-lg">
-          About Us
-        </h1>
-        <p className="mb-8 text-lg font-medium" style={{ color: '#136bcf' }}>
-          We craft simple, honest travel experiences around India & beyond.
-        </p>
-      </div>
+      {/* ✅ Hero Section with Heading at Bottom */}
+    <div
+       className="w-full h-[60vh] bg-cover bg-center relative"
+       style={{ backgroundImage: "url('/about-us.jpg')" }}
+    >
+       {/* Content Wrapper pinned to bottom */}
+
+       </div>
+                <div className="absolute bottom-0 left-0 w-full text-center pb-16 ">
+           <h1 className="custom-heading text-4xl md:text-5xl font-bold drop-shadow-lg">
+             About Us
+           </h1>
+           <p className="text-lg font-medium" style={{ color: '#136bcf' }}>
+             We craft simple, honest travel experiences around India & beyond.
+           </p>
+         </div>
+
 
       {/* ✅ Content stays inside container */}
       <div className="container max-w-6xl py-10 md:py-16">
