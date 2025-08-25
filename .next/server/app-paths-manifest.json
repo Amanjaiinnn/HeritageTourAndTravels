@@ -1,9 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/terms/page": "app/terms/page.js",
-  "/packages/page": "app/packages/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/about/page": "app/about/page.js",
-  "/api/destinations/route": "app/api/destinations/route.js",
-  "/api/packages/route": "app/api/packages/route.js"
+  "/page": "app/page.js"
 }

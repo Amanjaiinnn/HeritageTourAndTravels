@@ -7,12 +7,12 @@ import React, { useState, useEffect } from "react";
 // Note: Tailwind CSS is assumed to be available in this environment.
 
 const images = [
-  "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?q=80&w=1400&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?q=80&w=1400&auto=format&fit=crop",
+  "/carousal1.jpg",
+  "/carousal2.jpg",
+  "/carousal3.jpg",
+  "/carousal4.jpg",
+  "/carousal5.jpg",
+  "/carousal6.jpg",
 ];
 
 const HeroCarousel = () => {
