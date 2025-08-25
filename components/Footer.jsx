@@ -2,13 +2,25 @@ import Link from "next/link";
 import { Phone, MapPin, Mail} from "lucide-react";
 import { FaYoutube, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { FaEnvelope } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200">
       <div className="section grid md:grid-cols-4 gap-8">
         <div>
-          <div className="font-extrabold text-xl text-brand-700">Heritage Tour & Travels</div>
+          <div className="flex items-center gap-2">
+           <Image
+              src="/logo-removebg-preview.png" // path from /public
+              alt="Heritage Tour & Travels Logo"
+              width={80} // adjust as needed
+              height={80}
+              className="object-contain"
+              priority
+            />
+                <div className="font-extrabold text-xl text-brand-700">Heritage Tour & Travels</div>
+                </div>
+          
           <p className="text-sm text-slate-600 mt-2">Simple, honest travel ideas since 2015.</p>
         </div>
         <div>
