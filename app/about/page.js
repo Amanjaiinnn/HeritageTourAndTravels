@@ -3,7 +3,7 @@ export default function AboutPage() {
     <div>
       {/* ✅ Hero Section FULL WIDTH */}
       <div
-        className="w-full flex flex-col items-center justify-center h-[92vh] bg-cover bg-center text-center"
+        className="w-full flex flex-col items-center justify-center h-[60vh] bg-cover bg-center text-center"
         style={{ backgroundImage: "url('/tour.jpg')" }}
       >
         <h1 className="custom-heading text-4xl md:text-5xl font-bold drop-shadow-lg">

@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import DestinationCard from "@/components/DestinationCard";
 import PackageCard from "@/components/PackageCard";
 import CityCarousel from "@/components/CityCarousel";
+import Dehati from "@/components/Dehati";
 
 export default function HomePage() {
   const [destinations, setDestinations] = useState([]);
@@ -19,6 +20,8 @@ export default function HomePage() {
       <Hero />
 
       <CityCarousel />
+
+      <Dehati />
 
       <section id="destinations" className="section">
         <div className="flex items-center justify-between">
