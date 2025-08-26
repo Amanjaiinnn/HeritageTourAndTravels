@@ -36,7 +36,7 @@ export default function Navbar() {
               {i.label}
             </Link>
           ))}
-          <Link href="/packages" className="btn btn-primary">Explore</Link>
+          <Link href="/destinations" className="btn btn-primary">Explore</Link>
         </nav>
         <button onClick={()=>setOpen(!open)} className="md:hidden p-2 rounded-xl border border-slate-200">
           {open ? <X size={18}/> : <Menu size={18}/> }
