@@ -20,10 +20,15 @@ export default function DestinationPageD() {
 
 const highlights = ["Majestic Forts", "Sacred Temples", "Historical Cenotaphs", "Wildlife & Lakeside Views"];
   const photos = [
-    "/manali1.jpg",
-    "/manali2.jpg",
-    "/manali3.jpg",
-    "/manali4.jpg",
+        "/tour4a.jpg",
+        "/tour4b.jpg",
+        "/tour4c.jpg",
+        "/tour4d.jpg",
+        "/tour4e.jpg",
+        "/tour4f.jpg",
+        "/tour4g.jpg",
+        "/tour4h.jpg",
+      
   ];
 
   return (
@@ -31,7 +36,7 @@ const highlights = ["Majestic Forts", "Sacred Temples", "Historical Cenotaphs", 
       {/* Hero Section */}
       <div className="relative h-80 w-full">
         <Image
-          src="/manali.jpg" // replace with your destination hero image
+          src="/tour4b.jpg" // replace with your destination hero image
           alt="Manali"
           fill
           className="object-cover"

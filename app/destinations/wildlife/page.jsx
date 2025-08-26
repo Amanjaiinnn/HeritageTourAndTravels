@@ -20,10 +20,23 @@ export default function DestinationPageC() {
 
 const highlights = ["Forests & Tiger Reserve", "Sacred Temples & Shrines", "Waterfalls & Riverbanks", "Spiritual Caves & Historic Temples"];
   const photos = [
-    "/manali1.jpg",
-    "/manali2.jpg",
-    "/manali3.jpg",
-    "/manali4.jpg",
+        "/tour3a.jpg",
+        "/tour3b.jpg",
+        "/tour3c.jpg",
+        "/tour3d.jpg",
+        "/tour3e.jpg",
+        "/tour3f.jpg",
+        "/tour3g.jpg",
+        "/tour3h.jpg",
+        "/tour3j.jpg",
+        "/tour3k.jpg",
+        "/tour3l.jpg",
+        "/tour3m.jpg",
+        "/tour3n.jpg",
+        "/tour3o.jpg",
+        "/tour3p.jpg",
+        "/tour3q.jpg",
+        
   ];
 
   return (
@@ -31,7 +44,7 @@ const highlights = ["Forests & Tiger Reserve", "Sacred Temples & Shrines", "Wate
       {/* Hero Section */}
       <div className="relative h-80 w-full">
         <Image
-          src="/manali.jpg" // replace with your destination hero image
+          src="/tour3n.jpg" // replace with your destination hero image
           alt="Manali"
           fill
           className="object-cover"
