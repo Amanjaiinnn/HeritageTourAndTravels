@@ -24,7 +24,7 @@ export default function ContactPage() {
         <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 space-y-10">
           {/* Company Heading */}
           <div>
-            <h2 className="text-3xl font-extrabold text-blue-700 mb-2">
+            <h2 className="custom-heading text-4xl md:text-5xl font-bold drop-shadow-lg">
               Heritage Tours & Travels
             </h2>
             <p className="text-slate-600 leading-relaxed max-w-3xl">
@@ -35,44 +35,87 @@ export default function ContactPage() {
             </p>
           </div>
 
-          {/* Contact Info */}
-          <div className="grid md:grid-cols-2 gap-8">
+          {/* Contact Info (Fixed) */}
+          <div className="grid md:grid-cols-2 gap-10">
             {/* Left: Addresses */}
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-slate-800">Our Offices</h3>
+
+              {/* Lucknow */}
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-600 mt-1" />
                 <a
                   href="https://maps.app.goo.gl/oCTLGFXYCMLWTzRE7"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-brand-700"
+                  className="hover:text-blue-700"
                 >
-                  5/1004, Viram Khand, Gomti Nagar, Lucknow-226010
+                  Lucknow: 5/1004, Viram Khand, Gomti Nagar, Lucknow-226010
                 </a>
               </div>
 
+              {/* Barabanki */}
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-600 mt-1" />
                 <a
                   href="https://www.google.com/maps/search/?api=1&query=H.+N.+51,+Village+Banarki,+Ramnagar,+Barabanki,+UP-225201"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-brand-700"
+                  className="hover:text-blue-700"
                 >
-                  H. N. 51, Village Banarki, Ramnagar, Barabanki UP-225201
+                  Barabanki: H. N. 51, Village Banarki, Ramnagar, Barabanki UP-225201
                 </a>
               </div>
 
+              {/* Gorakhpur */}
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-600 mt-1" />
                 <a
                   href="https://www.google.com/maps/search/?api=1&query=Shankar+Steel+Opposite+Ramlila+Maidan+Gorakhnath,+Gorakhpur"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-brand-700"
+                  className="hover:text-blue-700"
                 >
-                  Shankar Steel Opposite Ramlila Maidan, Gorakhnath, Gorakhpur-273015
+                  Gorakhpur: Shankar Steel Opposite Ramlila Maidan, Gorakhnath, Gorakhpur-273015
+                </a>
+              </div>
+
+              {/* Varanasi */}
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-blue-600 mt-1" />
+                <a
+                  href="https://maps.app.goo.gl/JB99JmjmifUSi6hv5?g_st=aw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-700"
+                >
+                  Varanasi: Varanasi city railway station, Jalalipura, Varanasi, Uttar Pradesh 221002
+                </a>
+              </div>
+
+              {/* Ayodhya */}
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-blue-600 mt-1" />
+                <a
+                  href="https://maps.app.goo.gl/6rwV1GSvPRkyhEoK6?g_st=awb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-700"
+                >
+                  Ayodhya: Infrontoff Arya Sanskar Bhawan, Bhikhapur,Deokali, Ayodhya-224001
+                </a>
+              </div>
+
+              {/* Prayagraj */}
+              <div className="flex items-start gap-3">
+                <MapPin className="w-5 h-5 text-blue-600 mt-1" />
+                <a
+                  href="google.com/maps/place/Anurag+Mishra+%26+company,+B-292,+Vishnu+Nagar,+Indira+Nagar+Awas+Vikas+Colony,+Indira+Nagar,+Raebareli,+Uttar+Pradesh+229001/@26.2115192,81.2461472,3a,75y,218.83h,90.71t/data=!3m5!1e1!3m3!1sk0C4kPgUiCI4kPJtaO9Ebg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3Dk0C4kPgUiCI4kPJtaO9Ebg%26w%3D900%26h%3D600%26ll%3D0.0,0.0%26yaw%3D218.0%26pitch%3D0.0%26cb_client%3Dgmm.iv.android!4m2!3m1!1s0x399ba15fe906b87d:0xc9ee3ed37eb6d2f0?utm_source=mstt_0&g_ep=CAESBzI1LjM0LjUYACCBgQEqqwEsOTQyNjc3MjcsOTQyODIzMzcsOTQyODQ0NzgsOTQyMjMyOTksOTQyMTY0MTMsOTQyODA1NzYsOTQyMTI0OTYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTc1MjMsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNjI3MzMsNDcwODQzOTMsOTQyMTMyMDAsOTQyNTgzMjUsOTQyODY4NzZCAklO&skid=f6953849-723d-412c-bc40-1462fc8828d7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-700"
+                >
+                  Raebareli: B292, Awash Vikash Colony, Indira Nagar Raebareli 229001
                 </a>
               </div>
             </div>
@@ -142,34 +185,30 @@ export default function ContactPage() {
 
           {/* Contact Form */}
           <div className="flex flex-col gap-4 mt-6">
-<a 
-  href="https://wa.me/919214152266?text=Hello,%20I%20am%20interested%20in%20your%20Ayodhya%20Darshan%20package.%20Please%20send%20me%20pricing%20and%20details." 
-  target="_blank"
-  className="w-fit bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
->
-  Inquire more about Heritage Tours & Travels 
-</a>
+            <a 
+              href="https://wa.me/919214152266?text=Hello,%20I%20am%20interested%20in%20your%20Ayodhya%20Darshan%20package.%20Please%20send%20me%20pricing%20and%20details." 
+              target="_blank"
+              className="w-fit bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
+            >
+              Inquire more about Heritage Tours & Travels 
+            </a>
 
+            <a 
+              href="https://wa.me/919214152266?text=Hello,%20I%20am%20interested%20in%20your%20Ayodhya%20Darshan%20package.%20Please%20send%20me%20pricing%20and%20details." 
+              target="_blank"
+              className="w-fit bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
+            >
+              Inquire about prices 
+            </a>
 
-<a 
-  href="https://wa.me/919214152266?text=Hello,%20I%20am%20interested%20in%20your%20Ayodhya%20Darshan%20package.%20Please%20send%20me%20pricing%20and%20details." 
-  target="_blank"
-  className="w-fit bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
->
-  Inquire about prices 
-</a>
-
-
-<a 
-  href="https://wa.me/919214152266?text=Hello,%20I%20am%20interested%20in%20your%20Ayodhya%20Darshan%20package.%20Please%20send%20me%20pricing%20and%20details." 
-  target="_blank"
-  className="w-fit bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
->
-  Customize our tours 
-</a>
-
-</div>
-
+            <a 
+              href="https://wa.me/919214152266?text=Hello,%20I%20am%20interested%20in%20your%20Ayodhya%20Darshan%20package.%20Please%20send%20me%20pricing%20and%20details." 
+              target="_blank"
+              className="w-fit bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600 transition"
+            >
+              Customize our tours 
+            </a>
+          </div>
         </div>
       </div>
     </>
