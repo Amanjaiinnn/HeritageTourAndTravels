@@ -5,32 +5,32 @@ const cities = [
   {
     name: "Lucknow",
     image: "/luck.jpg",
-    link: "/goa",
+    link: "https://maps.app.goo.gl/Puqb6dKrXiKcHJ1d9?g_st=aw",
   },
   {
     name: "Gorakpur",
     image: "/Gorakhnath.jpg",
-    link: "/maharashtra",
+    link: "https://maps.app.goo.gl/2EF664o9JSAQfr1k6?g_st=aw",
   },
   {
     name: "Barabanki",
     image: "/chandra.png",
-    link: "/uttarakhand",
+    link: "https://maps.app.goo.gl/SzvDms7rmchz9c5L9?g_st=aw",
   },
   {
     name: "Varanasi",
     image: "/ghat.jpg",
-    link: "/dubai",
+    link: "https://maps.app.goo.gl/JB99JmjmifUSi6hv5?g_st=aw",
   },
   {
     name: "Ayodhya",
     image: "/ayodhya.jpg",
-    link: "/vrindavan",
+    link: "https://maps.app.goo.gl/6rwV1GSvPRkyhEoK6?g_st=awb",
   },
   {
     name: "Raebareli",
     image: "/rae.jpg",
-    link: "/varanasi",
+    link: "https://maps.app.goo.gl/ERkaN9jevEqkMYoK7",
   },
 ];
 

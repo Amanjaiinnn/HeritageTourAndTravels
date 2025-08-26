@@ -1,151 +1,102 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Hero from "@/components/Hero";
+import DestinationCard from "@/components/DestinationCard";
 import PackageCard from "@/components/PackageCard";
+import CityCarousel from "@/components/CityCarousel";
+import Dehati from "@/components/Dehati";
+import VehicleCarousel from "@/components/VehicleCarousel";
+import vehiclesData from "@/data/vehicle.json"; // ✅ import vehicles here
 
-export default function PackagesPage() {
-  // Updated data for vehicles with new rates
-  const [vehicles] = useState([
-    {
-      id: 1,
-      name: "Tempo Traveller (9 Seater) - Fully AC",
-      image: "/Traveller-9.png",
-      rate: "₹22/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 2,
-      name: "Tempo Traveller (14 Seater) - Fully AC",
-      image: "/Traveller-13.png",
-      rate: "₹24/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 3,
-      name: "Tempo Traveller (17 Seater) - Fully AC",
-      image: "/18.png",
-      rate: "₹27/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 4,
-      name: "Tempo Traveller (22 Seater) - Fully AC",
-      image: "/Traveller-35.png",
-      rate: "₹32/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 5,
-      name: "Tempo Traveller (25 Seater) - Fully AC",
-      image: "/Traveller-35.png",
-      rate: "₹35/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 6,
-      name: "Luxury Bus (30 Seater) - Fully AC",
-      image: "/Bus-1.jpeg.webp",
-      rate: "₹42/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 7,
-      name: "Luxury Bus (35 Seater) - Fully AC",
-      image: "/Bus-2.jpeg.webp",
-      rate: "₹45/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 8,
-      name: "Luxury Bus (45 Seater) - Fully AC",
-      image: "/buss.jpg",
-      rate: "₹60/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 9,
-      name: "Luxury Bus (52 Seater) - Fully AC",
-      image: "/bus-1.jpeg",
-      rate: "₹70/km + ₹250/day (Journey Charge)",
-      category: "Group & Family Travel",
-    },
-    {
-      id: 10,
-      name: "Innova Crysta",
-      image: "/innova.png",
-      rate: "₹16/km",
-      category: "Standard Rentals",
-    },
-    {
-      id: 11,
-      name: "Kia Carens",
-      image: "/carens.jpeg",
-      rate: "₹14/km",
-      category: "Standard Rentals",
-    },
-    {
-      id: 12,
-      name: "Ertiga",
-      image: "/ertiga.jpeg",
-      rate: "₹13/km",
-      category: "Standard Rentals",
-    },
-    {
-      id: 13,
-      name: "Dzire",
-      image: "/dzire.jpeg",
-      rate: "₹11/km",
-      category: "Standard Rentals",
-    },
-    {
-      id: 14,
-      name: "BMW",
-      image: "/bmw.jpeg",
-      rate: "₹100/km",
-      category: "Business / Marriage Purpose",
-    },
-    {
-      id: 15,
-      name: "Audi",
-      image: "audi.jpeg",
-      rate: "₹120/km",
-      category: "Business / Marriage Purpose",
-    },
-    {
-      id: 16,
-      name: "Mercedes",
-      image: "merc.jpeg",
-      rate: "₹150/km",
-      category: "Business / Marriage Purpose",
-    },
-  ]);
+export default function HomePage() {
+  const [destinations, setDestinations] = useState([]);
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/destinations").then((r) => r.json()).then(setDestinations);
+    fetch("/api/packages").then((r) => r.json()).then(setPackages);
+  }, []);
 
   return (
-    <div className="section">
-      {/* Header */}
-      <div className="flex items-end justify-between gap-3">
-        <h1 className="text-3xl font-extrabold">Our Vehicles</h1>
-        <div className="text-sm text-slate-600">{vehicles.length} Available</div>
-      </div>
+    <div>
+      <Hero />
+      <CityCarousel />
+      <Dehati />
 
-      {/* Vehicle Grid */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
-        {vehicles.map((item) => (
-          <PackageCard key={item.id} item={item} />
-        ))}
-      </div>
+      <section id="destinations" className="section">
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-bold">Curated Tours</h2>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+          {destinations.slice(0, 6).map((d) => (
+            <DestinationCard key={d.id} item={d} />
+          ))}
+        </div>
+      </section>
 
-      {/* Terms & Conditions */}
-      <div className="mt-12 bg-gray-100 p-6 rounded-xl shadow">
-        <h2 className="text-xl font-bold mb-4">Terms & Conditions</h2>
-        <ul className="list-disc pl-6 space-y-2 text-gray-700">
-          <li>Time & Distance will be calculated Garage to Garage.</li>
-          <li>Night Charges applicable before 06 AM & after 09 PM.</li>
-          <li>Toll Tax, State Tax, Parking & Driver Night extra.</li>
-          <li>Outstation duty requires a minimum of 250 km running per day.</li>
-          <li>Journey Charge ₹250/day applicable on all vehicles.</li>
-          <li>GST Bill: 18% GST extra on final bill amount.</li>
-        </ul>
-      </div>
+      <section id="information" className="section">
+        <div className="mb-8">
+          <h2 className="mt-6 mb-2 text-2xl font-bold">
+            <strong>Tailored Tour Packages</strong>
+          </h2>
+          <p>
+            Move beyond ordinary itineraries with our personalized tours across
+            India, Nepal, and Bhutan. Each journey is carefully designed to suit
+            your preferences—whether you’re seeking cultural exploration,
+            spiritual retreats, or adventurous getaways. Your perfect trip is
+            our priority.
+          </p>
+        </div>
+
+        <div className="mb-8">
+          <h3 className="mt-6 mb-2">
+            <strong>Vehicle Rental Services</strong>
+          </h3>
+          <p>
+            Travel comfortably with our extensive fleet, tailored to meet
+            diverse travel needs:
+          </p>
+          <ul className="list-disc pl-6">
+            <li>
+              <strong>Group & Family Travel:</strong> Spacious options including
+              Tempo Traveller (14, 17, and 25-seater), Urbania, and luxury
+              buses.
+            </li>
+            <li>
+              <strong>Business & Special Occasions:</strong> Premium rides such
+              as BMW, Audi, and Mercedes for a touch of elegance.
+            </li>
+            <li>
+              <strong>Standard Rentals:</strong> Trusted vehicles like Innova
+              Crysta, Kia Carens, Ertiga, and Dzire for everyday journeys.
+            </li>
+          </ul>
+          <p className="mt-3">
+            Our vehicle services are available across major cities in Uttar
+            Pradesh, including Lucknow, Gorakhpur, Ayodhya, Varanasi,
+            Prayagraj, Barabanki, and Raebareli. We also specialize in corporate
+            travel, ensuring reliable and comfortable transport for business
+            teams and events.
+          </p>
+        </div>
+      </section>
+
+      {/* ✅ Vehicle Carousel plugged in */}
+      <section id="vehicles" className="section">
+        <h2 className="text-2xl font-bold mb-6">Available Vehicles</h2>
+        <VehicleCarousel vehicles={vehiclesData} />
+      </section>
+
+      <section id="packages" className="section">
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-bold">Experiences</h2>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+          {packages.slice(0, 6).map((p) => (
+            <PackageCard key={p.id} item={p} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,18 @@
+[
+  { "id": 1, "name": "Tempo Traveller (9 Seater) - Fully AC", "image": "/traveller-9.png", "rate": "₹22/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 2, "name": "Tempo Traveller (14 Seater) - Fully AC", "image": "/Traveller-13.png", "rate": "₹24/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 3, "name": "Tempo Traveller (17 Seater) - Fully AC", "image": "/18.png", "rate": "₹27/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 4, "name": "Tempo Traveller (22 Seater) - Fully AC", "image": "/Traveller-35.png", "rate": "₹32/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 5, "name": "Tempo Traveller (25 Seater) - Fully AC", "image": "/Traveller-35.png", "rate": "₹35/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 6, "name": "Luxury Bus (30 Seater) - Fully AC", "image": "/Bus-1.jpeg.webp", "rate": "₹42/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 7, "name": "Luxury Bus (35 Seater) - Fully AC", "image": "/Bus-2.jpeg.webp", "rate": "₹45/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 8, "name": "Luxury Bus (45 Seater) - Fully AC", "image": "/buss.jpg", "rate": "₹60/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 9, "name": "Luxury Bus (52 Seater) - Fully AC", "image": "/bus-1.jpeg", "rate": "₹70/km + ₹250/day", "category": "Group & Family Travel" },
+  { "id": 10, "name": "Innova Crysta", "image": "/innova.png", "rate": "₹16/km", "category": "Standard Rentals" },
+  { "id": 11, "name": "Kia Carens", "image": "/carens.jpeg", "rate": "₹14/km", "category": "Standard Rentals" },
+  { "id": 12, "name": "Ertiga", "image": "/ertiga.jpeg", "rate": "₹13/km", "category": "Standard Rentals" },
+  { "id": 13, "name": "Dzire", "image": "/dzire.jpeg", "rate": "₹11/km", "category": "Standard Rentals" },
+  { "id": 14, "name": "BMW", "image": "/bmw.jpeg", "rate": "₹100/km", "category": "Business / Marriage Purpose" },
+  { "id": 15, "name": "Audi", "image": "/audi.jpeg", "rate": "₹120/km", "category": "Business / Marriage Purpose" },
+  { "id": 16, "name": "Mercedes", "image": "/merc.jpeg", "rate": "₹150/km", "category": "Business / Marriage Purpose" }
+]
