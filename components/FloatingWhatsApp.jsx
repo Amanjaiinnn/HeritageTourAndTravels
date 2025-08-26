@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const FloatingWhatsApp = () => {
   return (
     <a
-      href="https://wa.me/911234567890" // replace with your WhatsApp number
+      href="https://wa.me/919214152266?text=Namaste,%20I%20would%20like%20to%20customize%20a%20family%20tour.%20Please%20connect%20with%20me" // replace with your WhatsApp number
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 z-50 animate-bounce"

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function DestinationCard({ item }) {
   return (
 
-    <Link href={`/destinations?focus=${item.slug}`} className="card overflow-hidden group">
+    <Link href={`/destinations/${item.slug}`} className="card overflow-hidden group">
       <div className="relative h-44">
         <Image src={item.image} alt={item.title} fill className="object-cover group-hover:scale-105 transition"/>
       </div>

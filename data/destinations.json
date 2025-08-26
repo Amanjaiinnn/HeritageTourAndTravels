@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Bundelkhand Forts & Spiritual Heritage (4 Days / 3 Nights)",
-    "slug": "nature-waterfalls-bundelkhand-4days-3nights",
+    "slug": "Bundelkhandfort",
     "image": "/tour01.jpg",
     "summary": "Districts: Banda, Mahoba, Chitrakoot .",
     "highlights": ["Kalinjar Fort",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "title": "Nature & Waterfalls of Bundelkhand (4 Days / 3 Nights)",
-    "slug": "nature-waterfalls-bundelkhand-4days-3nights",
+    "slug": "Bundelkhandwaterfalls",
     "image": "/tour2.jpg",
     "summary": "Districts: Hamirpur, Banda, Chitrakoot .",
     "highlights": ["Marpha Waterfalls (Chitrakoot)",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "title": "Wildlife, Spiritual & River Trails (5 Days / 4 Nights)",
-    "slug": "wildlife-spiritual-river-trails-5days-4nights",
+    "slug": "wildlife",
     "image": "/tour3.jpg",
     "summary": "Districts: Chitrakoot, Mahoba, Hamirpur .",
     "highlights": ["Panna Tiger Reserve Safari",
@@ -35,7 +35,7 @@
   {
     "id": 4,
     "title": "Royal Bundelkhand & Festival Tour (4 Days / 3 Nights)",
-    "slug": "royal-bundelkhand-festival-tour-4days-3nights",
+    "slug": "Bundelkhandfestival",
     "image": "/tour4.jpg",
     "summary": "Districts: Chitrakoot, Mahoba.",
     "highlights": ["Orchha Fort & Jahangir Mahal",
@@ -46,9 +46,9 @@
   {
     "id": 5,
     "title": "Custom Tours Avaliable",
-    "slug": "custom-tours-avaliable",
+    "slug": "custom",
     "image": "/custom.jpg",
-    "summary": "Book your own Vehicle. For further details contact us on Whatsapp",
+    "summary": "Book your own Vehicle. For further details contact us on Whatsapp.",
     "highlights": ["Tour", "Rental vehicles", "contact us"]
   }
 ]
