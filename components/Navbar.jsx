@@ -8,7 +8,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const items = [
     { href: "/#destinations", label: "Destinations" },
-    { href: "/#packages", label: "Experiences" },
+    { href: "/packages", label: "Vehicles" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
     { href: "/terms", label: "Terms & Conditions" }
