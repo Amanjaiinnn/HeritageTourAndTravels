@@ -8,7 +8,7 @@ export default function PackagesPage() {
     {
       id: 1,
       name: "Tempo Traveller (9 Seater) - Fully AC",
-      image: "/Traveller-9.png",
+      image: "/traveller-9.png",
       rate: "₹22/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
