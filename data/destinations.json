@@ -50,5 +50,109 @@
     "image": "/custom.jpg",
     "summary": "Book your own Vehicle. For further details contact us on Whatsapp.",
     "highlights": ["Tour", "Rental vehicles", "contact us"]
+  },
+  {
+    "id": 6,
+    "title": "Spiritual Varanasi & Ganga Aarti (3 Days / 2 Nights)",
+    "slug": "varanasi",
+    "image": "/varanasi.jpg",
+    "summary": "District: Varanasi, Uttar Pradesh.",
+    "highlights": [
+      "Evening Ganga Aarti at Dashashwamedh Ghat",
+      "Kashi Vishwanath Temple",
+      "Sarnath Buddhist Site",
+      "Boat Ride on River Ganga"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Agra Heritage & Taj Mahal Tour (2 Days / 1 Night)",
+    "slug": "agraheritage",
+    "image": "/agra.jpg",
+    "summary": "District: Agra, Uttar Pradesh.",
+    "highlights": [
+      "Taj Mahal Sunrise View",
+      "Agra Fort",
+      "Mehtab Bagh",
+      "Local Mughlai Cuisine Experience"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Shimla & Kufri Hill Tour (4 Days / 3 Nights)",
+    "slug": "shimla",
+    "image": "/shimla.jpg",
+    "summary": "District: Shimla, Himachal Pradesh.",
+    "highlights": [
+      "Mall Road & Ridge, Shimla",
+      "Kufri Snow Adventure",
+      "Jakhoo Temple",
+      "Christ Church"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Manali Adventure & Solang Valley (5 Days / 4 Nights)",
+    "slug": "manali",
+    "image": "/manali.jpg",
+    "summary": "District: Kullu, Himachal Pradesh.",
+    "highlights": [
+      "Hidimba Devi Temple",
+      "Solang Valley Adventure Sports",
+      "Rohtang Pass (seasonal)",
+      "Old Manali Cafe Culture"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Rishikesh & Haridwar Yoga Tour (4 Days / 3 Nights)",
+    "slug": "rishikesh",
+    "image": "/rishikesh.jpg",
+    "summary": "Districts: Dehradun & Haridwar, Uttarakhand.",
+    "highlights": [
+      "Evening Ganga Aarti at Har Ki Pauri",
+      "Yoga & Meditation Sessions",
+      "Ram Jhula & Laxman Jhula",
+      "River Rafting in Rishikesh"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Nainital Lake & Kumaon Hills Tour (4 Days / 3 Nights)",
+    "slug": "nainital",
+    "image": "/nainital.jpg",
+    "summary": "District: Nainital, Uttarakhand.",
+    "highlights": [
+      "Naini Lake Boat Ride",
+      "Snow View Point",
+      "Tiffin Top Trek",
+      "Nainital Zoo"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Kashmir Paradise Tour (6 Days / 5 Nights)",
+    "slug": "kashmir",
+    "image": "/kashmir.jpg",
+    "summary": "Districts: Srinagar, Gulmarg, Pahalgam, Jammu & Kashmir.",
+    "highlights": [
+      "Dal Lake Shikara Ride, Srinagar",
+      "Gulmarg Gondola Ride",
+      "Betaab Valley, Pahalgam",
+      "Mughal Gardens (Shalimar, Nishat)"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Leh–Ladakh Adventure Tour (7 Days / 6 Nights)",
+    "slug": "ladakh",
+    "image": "/ladakh.jpg",
+    "summary": "District: Leh, Jammu & Kashmir.",
+    "highlights": [
+      "Pangong Lake",
+      "Khardung La Pass (highest motorable road)",
+      "Thiksey & Hemis Monastery",
+      "Nubra Valley Camel Safari"
+    ]
   }
 ]
