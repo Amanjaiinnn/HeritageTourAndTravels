@@ -4,7 +4,8 @@ import Hero from "@/components/Hero";
 import DestinationCard from "@/components/DestinationCard";
 import PackageCard from "@/components/PackageCard";
 import CityCarousel from "@/components/CityCarousel";
-import Dehati from "@/components/Dehati";
+// import Dehati from "@/components/Dehati";
+import Intro from "@/components/Intro";
 import VehicleCarousel from "@/components/VehicleCarousel";
 import ReviewCarousel from "@/components/ReviewCarousel";
 
@@ -23,7 +24,7 @@ export default function HomePage() {
     <div>
       <Hero />
       <CityCarousel />
-      <Dehati />
+      <Intro />
 
       <section id="destinations" className="section">
         <div className="flex items-center justify-between">
@@ -43,19 +44,12 @@ export default function HomePage() {
 
       <div>
       <h1 className="text-3xl font-bold text-center mt-10">
-        What Our Customers Say
+        
       </h1>
       <ReviewCarousel />
       </div>
 
-      {/* <section id="packages" className="section">
-        <div className="flex items-center justify-between">
-          <h2 className="text-2xl font-bold">Experiences</h2>
-        </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
-          {packages.slice(0,6).map(p => <PackageCard key={p.id} item={p} />)}
-        </div>
-      </section> */}
+      
     </div>
   );
 }
