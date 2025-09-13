@@ -1,19 +1,24 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-
 export default function PackageCard({ item }) {
   return (
-    <Link href={`/packages?focus=${item.slug}`} className="card overflow-hidden group">
-      <div className="relative h-44">
-        <Image src={item.image} alt={item.title} fill className="object-cover group-hover:scale-105 transition"/>
-        <div className="absolute top-3 left-3 badge">{item.duration}</div>
+    <div className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+      {/* Vehicle Image */}
+      <div className="h-52 w-full overflow-hidden">
+        <img
+          src={item.image}
+          alt={item.name}
+          className="w-full h-full object-cover"
+        />
       </div>
+
+      {/* Vehicle Info */}
       <div className="p-4">
-        <div className="font-semibold">{item.title}</div>
-        <div className="mt-1 text-sm text-slate-600">{item.location}</div>
-        <p className="mt-2 text-sm text-slate-600 line-clamp-2">{item.summary}</p>
+        <h3 className="text-lg font-bold text-gray-800">{item.name}</h3>
+        <p className="text-sm text-gray-500">{item.category}</p>
+        <p className="mt-2 text-base font-semibold text-green-700">
+          {item.rate}
+        </p>
       </div>
-    </Link>
+    </div>
   );
 }
+
