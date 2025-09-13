@@ -17,7 +17,10 @@ export default function Intro({ onBook = () => {  const phoneNumber = "919999999
 
             <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight text-slate-900 mb-4">Heritage Tour &amp; Travels</h1>
 
-            <p className="text-slate-600 mb-6">We specialize in curated travel experiences across India, Nepal and Bhutan — backed by glowing reviews. Whether it’s a family trip, corporate travel, wedding transport or a hotel booking, we craft the journey to suit your needs.</p>
+
+           
+            <p className="text-slate-600 mb-6"> We specialize in curated travel experiences across India, Nepal and Bhutan — backed by glowing reviews. Whether it’s a family trip, corporate travel, wedding transport or a hotel booking, we craft the journey to suit your needs.</p>
+
 
             <div className="grid sm:grid-cols-2 gap-4 mb-6">
               <div className="p-4 bg-white rounded-xl border">
