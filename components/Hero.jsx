@@ -8,9 +8,9 @@ import React, { useState, useEffect } from "react";
 
 const images = [
   "/carousal1.jpg",
-  "/carousal2.jpg",
-  "/carousal3.jpg",
-  "/carousal4.jpg",
+  "/h1.jpg",
+  "/h2.jpg",
+  "/ram.jpg",
   "/carousal5.jpg",
   "/carousal6.jpg",
 ];

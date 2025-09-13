@@ -9,36 +9,37 @@
   },
   {
     "id": 2,
-    "title": "Nature & Waterfalls of Bundelkhand (4 Days / 3 Nights)",
-    "slug": "Bundelkhandwaterfalls",
-    "image": "/tour2.jpg",
-    "summary": "Districts: Hamirpur, Banda, Chitrakoot.",
-    "highlights": ["Marpha Waterfalls (Chitrakoot)", "Keoti Waterfalls", "Pandav Caves & Natural Springs", "Ken River Scenic Views"]
+    "title": "Ayodhya Spiritual Circuit (5 Days / 4 Nights)",
+    "slug": "ayodhya",
+    "image": "/tour20a.jpg",
+    "summary": "Districts: Varanasi & Ayodhya, Uttar Pradesh.",
+    "highlights": ["Ram Mandir Ayodhya", "Saryu Aarti", "Kashi Vishwanath Corridor", "Dashashwamedh Ghat Ganga Aarti"]
   },
-  {
-    "id": 3,
-    "title": "Wildlife, Spiritual & River Trails (5 Days / 4 Nights)",
-    "slug": "wildlife",
-    "image": "/tour3.jpg",
-    "summary": "Districts: Chitrakoot, Mahoba, Hamirpur.",
-    "highlights": ["Panna Tiger Reserve Safari", "Ken Gharial Sanctuary", "Ramghat Aarti at Mandakini River", "Mahoba Sun Temple"]
-  },
-  {
-    "id": 4,
-    "title": "Royal Bundelkhand & Festival Tour (4 Days / 3 Nights)",
-    "slug": "Bundelkhandfestival",
-    "image": "/tour4.jpg",
-    "summary": "Districts: Chitrakoot, Mahoba.",
-    "highlights": ["Orchha Fort & Jahangir Mahal", "Chaturbhuj Temple", "Ramleela Festival at Chitrakoot", "Folk Dance & Bundeli Music Nights"]
-  },
+
  
   {
-    "id": 6,
+    "id": 3,
     "title": "Spiritual Varanasi & Ganga Aarti (3 Days / 2 Nights)",
     "slug": "varanasi",
     "image": "/tour6a.jpg",
     "summary": "District: Varanasi, Uttar Pradesh.",
     "highlights": ["Evening Ganga Aarti at Dashashwamedh Ghat", "Kashi Vishwanath Temple", "Sarnath Buddhist Site", "Boat Ride on River Ganga"]
+  },
+    {
+    "id": 4,
+    "title": "Kathmandu Valley Heritage Tour (5 Days / 4 Nights)",
+    "slug": "kathmandu",
+    "image": "/tour23a.jpg",
+    "summary": "Location: Kathmandu, Nepal (No Passport required for Indians).",
+    "highlights": ["Pashupatinath Temple", "Boudhanath Stupa", "Durbar Square", "Swayambhunath Monkey Temple"]
+  },
+  {
+    "id": 5,
+    "title": "Lumbini Buddhist Circuit Tour (4 Days / 3 Nights)",
+    "slug": "lumbini",
+    "image": "/tour24a.jpg",
+    "summary": "Location: Lumbini, Nepal (Birthplace of Lord Buddha).",
+    "highlights": ["Maya Devi Temple", "Lumbini Monastic Zone", "Ashokan Pillar", "Sacred Garden & Bodhi Tree"]
   },
   {
     "id": 7,
@@ -144,14 +145,7 @@
     "summary": "District: Jaipur, Rajasthan.",
     "highlights": ["Amber Fort Elephant Ride", "City Palace & Museum", "Hawa Mahal", "Local Rajasthani Cuisine"]
   },
-  {
-    "id": 20,
-    "title": "Varanasi–Ayodhya Spiritual Circuit (5 Days / 4 Nights)",
-    "slug": "ayodhya",
-    "image": "/tour20a.jpg",
-    "summary": "Districts: Varanasi & Ayodhya, Uttar Pradesh.",
-    "highlights": ["Ram Mandir Ayodhya", "Saryu Aarti", "Kashi Vishwanath Corridor", "Dashashwamedh Ghat Ganga Aarti"]
-  },
+  
   {
     "id": 21,
     "title": "Mount Abu & Dilwara Temples Tour (3 Days / 2 Nights)",
@@ -168,22 +162,7 @@
     "summary": "Location: Pokhara, Nepal (No Passport required for Indians).",
     "highlights": ["Phewa Lake Boat Ride", "World Peace Pagoda", "Davis Falls", "Sarangkot Sunrise View of Annapurna Range"]
   },
-  {
-    "id": 23,
-    "title": "Kathmandu Valley Heritage Tour (5 Days / 4 Nights)",
-    "slug": "kathmandu",
-    "image": "/tour23a.jpg",
-    "summary": "Location: Kathmandu, Nepal (No Passport required for Indians).",
-    "highlights": ["Pashupatinath Temple", "Boudhanath Stupa", "Durbar Square", "Swayambhunath Monkey Temple"]
-  },
-  {
-    "id": 24,
-    "title": "Lumbini Buddhist Circuit Tour (4 Days / 3 Nights)",
-    "slug": "lumbini",
-    "image": "/tour24a.jpg",
-    "summary": "Location: Lumbini, Nepal (Birthplace of Lord Buddha).",
-    "highlights": ["Maya Devi Temple", "Lumbini Monastic Zone", "Ashokan Pillar", "Sacred Garden & Bodhi Tree"]
-  },
+  
   {
     "id": 25,
     "title": "Tamu Monastery & Kalay, Myanmar (Burma) Tour (4 Days / 3 Nights)",

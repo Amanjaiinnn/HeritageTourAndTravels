@@ -23,7 +23,7 @@ export default function Footer() {
                 <div className="font-extrabold text-xl text-brand-700">Heritage Tour & Travels</div>
                 </div>
           
-          <p className="text-sm text-slate-600 mt-2">Simple, honest travel ideas since 2015.</p>
+          <p className="text-sm text-slate-600 mt-2">Simple, honest travel ideas.</p>
         </div>
         <div>
           <div className="font-semibold mb-2">Company</div>

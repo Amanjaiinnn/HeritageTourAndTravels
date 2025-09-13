@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Bundelkhand Forts & Spiritual Heritage (4 Days / 3 Nights)",
+    "slug": "Bundelkhandfirst",
+    "image": "/tour01.jpg",
+    "summary": "Districts: Banda, Mahoba, Chitrakoot.",
+    "highlights": ["Kalinjar Fort", "Vijayraghavgarh Fort", "Hanuman Dhara Temple, Chitrakoot", "Gupta Godavari Caves"]
+  },
+  {
+    "id": 2,
+    "title": "Nature & Waterfalls of Bundelkhand (4 Days / 3 Nights)",
+    "slug": "Bundelkhandwaterfalls",
+    "image": "/tour2.jpg",
+    "summary": "Districts: Hamirpur, Banda, Chitrakoot.",
+    "highlights": ["Marpha Waterfalls (Chitrakoot)", "Keoti Waterfalls", "Pandav Caves & Natural Springs", "Ken River Scenic Views"]
+  },
+  {
+    "id": 3,
+    "title": "Wildlife, Spiritual & River Trails (5 Days / 4 Nights)",
+    "slug": "wildlife",
+    "image": "/tour3.jpg",
+    "summary": "Districts: Chitrakoot, Mahoba, Hamirpur.",
+    "highlights": ["Panna Tiger Reserve Safari", "Ken Gharial Sanctuary", "Ramghat Aarti at Mandakini River", "Mahoba Sun Temple"]
+  },
+  {
+    "id": 4,
+    "title": "Royal Bundelkhand & Festival Tour (4 Days / 3 Nights)",
+    "slug": "Bundelkhandfestival",
+    "image": "/tour4.jpg",
+    "summary": "Districts: Chitrakoot, Mahoba.",
+    "highlights": ["Orchha Fort & Jahangir Mahal", "Chaturbhuj Temple", "Ramleela Festival at Chitrakoot", "Folk Dance & Bundeli Music Nights"]
+  }
+]
