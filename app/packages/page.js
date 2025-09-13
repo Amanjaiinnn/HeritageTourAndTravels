@@ -33,53 +33,61 @@ export default function PackagesPage() {
       rate: "₹27/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
-    {
+        {
       id: 4,
+      name: "Urbania (17 Seater) - Fully AC",
+      image: "/18.png",
+      rate: "₹35/km + ₹250/day (Journey Charge)",
+      category: "Group & Family Travel",
+    },
+    {
+      id: 5,
       name: "Tempo Traveller (22 Seater) - Fully AC",
       image: "/Traveller-35.png",
       rate: "₹32/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
     {
-      id: 5,
+      id: 6,
       name: "Tempo Traveller (25 Seater) - Fully AC",
       image: "/Traveller-35.png",
       rate: "₹35/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
     {
-      id: 6,
+      id: 7,
       name: "Luxury Bus (30 Seater) - Fully AC",
       image: "/Bus-1.jpeg.webp",
       rate: "₹42/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
     {
-      id: 7,
+      id: 8,
       name: "Luxury Bus (35 Seater) - Fully AC",
       image: "/Bus-2.jpeg.webp",
       rate: "₹45/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
     {
-      id: 8,
+      id: 9,
       name: "Luxury Bus (45 Seater) - Fully AC",
       image: "/buss.jpg",
       rate: "₹60/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
     {
-      id: 9,
+      id: 10,
       name: "Luxury Bus (52 Seater) - Fully AC",
       image: "/bus-1.jpeg",
       rate: "₹70/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },
     {
-      id: 10,
+      id: 11,
       name: "Innova Crysta",
       image: "/innova.png",
       rate: "₹22/km",
+<<<<<<< HEAD
       category: "Standard Rentals",
     },
     {
@@ -87,38 +95,59 @@ export default function PackagesPage() {
       name: "Kia Carens",
       image: "/carens.jpeg",
       rate: "₹16/km",
+=======
+>>>>>>> 69a54c0e1cb51b4b59298236361f9cb1e1c5823b
       category: "Standard Rentals",
     },
     {
       id: 12,
+<<<<<<< HEAD
       name: "Ertiga",
       image: "/ertiga.jpeg",
       rate: "₹14/km",
+=======
+      name: "Kia Carens",
+      image: "/carens.jpeg",
+      rate: "₹16/km",
+>>>>>>> 69a54c0e1cb51b4b59298236361f9cb1e1c5823b
       category: "Standard Rentals",
     },
     {
       id: 13,
+<<<<<<< HEAD
+      name: "Dzire",
+      image: "/dzire.jpeg",
+      rate: "₹12/km",
+=======
+      name: "Ertiga",
+      image: "/ertiga.jpeg",
+      rate: "₹14/km",
+>>>>>>> 69a54c0e1cb51b4b59298236361f9cb1e1c5823b
+      category: "Standard Rentals",
+    },
+    {
+      id: 14,
       name: "Dzire",
       image: "/dzire.jpeg",
       rate: "₹12/km",
       category: "Standard Rentals",
     },
     {
-      id: 14,
+      id: 15,
       name: "BMW",
       image: "/bmw.jpeg",
       rate: "₹100/km",
       category: "Business / Marriage Purpose",
     },
     {
-      id: 15,
+      id: 16,
       name: "Audi",
       image: "audi.jpeg",
       rate: "₹120/km",
       category: "Business / Marriage Purpose",
     },
     {
-      id: 16,
+      id: 17,
       name: "Mercedes",
       image: "merc.jpeg",
       rate: "₹150/km",
