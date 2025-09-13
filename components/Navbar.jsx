@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const items = [
-    { href: "/#destinations", label: "Destinations" },
+    // { href: "/#destinations", label: "Destinations" },
     { href: "/packages", label: "Vehicles" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
@@ -50,7 +50,7 @@ export default function Navbar() {
                 {i.label}
               </Link>
             ))}
-            <Link href="/packages" className="btn btn-primary w-full" onClick={()=>setOpen(false)}>
+            <Link href="/destinations" className="btn btn-primary w-full" onClick={()=>setOpen(false)}>
               Explore
             </Link>
           </div>

@@ -35,15 +35,6 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <div className="font-semibold mb-2">Explore</div>
-          <ul className="space-y-2 text-sm">
-            <li><Link className="link" href="/packages?tag=romantic">Romantic</Link></li>
-            <li><Link className="link" href="/packages?tag=adventure">Adventure</Link></li>
-            <li><Link className="link" href="/packages?tag=beach">Beach</Link></li>
-            <li><Link className="link" href="/destinations">Destinations</Link></li>
-          </ul>
-        </div>
-        <div>
           <div className="font-semibold mb-2">Contact</div>
           <div className="text-sm text-slate-600 space-y-2">
   <div className="text-sm text-slate-600 space-y-2">
@@ -109,6 +100,7 @@ export default function Footer() {
         <div>
           <span className="font-semibold">Email:</span>{" "}
           <a href="mailto:info@yourdomain.com" className="hover:text-brand-700">heritagetourandtravelslucknow@gmail.com</a>
+          <a href="mailto:info@yourdomain.com" className="hover:text-brand-700">httcustomer@gmail.com</a>
         </div>
       </div>
         <div className="text-sm text-slate-600 space-y-3">
