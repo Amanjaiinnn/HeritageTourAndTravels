@@ -7,7 +7,6 @@ import Image from "next/image";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const items = [
-    // { href: "/#destinations", label: "Destinations" },
     { href: "/packages", label: "Vehicles" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
@@ -15,9 +14,23 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
-      <div className="container max-w-7xl mx-auto flex items-center justify-between py-3 px-4">
-        <Link href="/" className="flex items-center gap-0">
+    <header className="sticky top-0 z-50">
+      {/* 🔹 Slim top strip */}
+      <div className="bg-brand-700 text-white text-sm py-1">
+        <div className="container max-w-7xl mx-auto flex items-center justify-center md:justify-end px-4">
+          📞 <a href="tel:+919214152266" className="ml-1 hover:underline mr-3">
+            +91 92141 52266
+          </a>
+          📞 <a href="tel:+918175051510" className="ml-1 hover:underline">
+            +91 81750 51510
+          </a>
+        </div>
+      </div>
+
+      {/* 🔹 Main navbar */}
+      <div className="bg-white/90 backdrop-blur border-b border-slate-200">
+        <div className="container max-w-7xl mx-auto flex items-center justify-between py-3 px-4">
+          <Link href="/" className="flex items-center gap-0">
             <Image
               src="/logo-removebg-preview.png"
               alt="Heritage Tour & Travels Logo"
@@ -30,32 +43,48 @@ export default function Navbar() {
               Heritage Tour & Travels
             </span>
           </Link>
-        <nav className="hidden md:flex items-center gap-4">
-          {items.map(i => (
-            <Link key={i.href} className="hover:text-brand-700" href={i.href}>
-              {i.label}
-            </Link>
-          ))}
-          <Link href="/destinations" className="btn btn-primary">Explore</Link>
-        </nav>
-        <button onClick={()=>setOpen(!open)} className="md:hidden p-2 rounded-xl border border-slate-200">
-          {open ? <X size={18}/> : <Menu size={18}/> }
-        </button>
-      </div>
-      {open && (
-        <div className="md:hidden border-t border-slate-200 bg-white">
-          <div className="container max-w-6xl mx-auto px-4 py-2 flex flex-col gap-2">
-            {items.map(i => (
-              <Link key={i.href} href={i.href} onClick={()=>setOpen(false)} className="py-2">
+
+          <nav className="hidden md:flex items-center gap-4">
+            {items.map((i) => (
+              <Link key={i.href} className="hover:text-brand-700" href={i.href}>
                 {i.label}
               </Link>
             ))}
-            <Link href="/destinations" className="btn btn-primary w-full" onClick={()=>setOpen(false)}>
-              Explore
-            </Link>
-          </div>
+            <Link href="/destinations" className="btn btn-primary">Explore</Link>
+          </nav>
+
+          <button
+            onClick={() => setOpen(!open)}
+            className="md:hidden p-2 rounded-xl border border-slate-200"
+          >
+            {open ? <X size={18} /> : <Menu size={18} />}
+          </button>
         </div>
-      )}
+
+        {open && (
+          <div className="md:hidden border-t border-slate-200 bg-white">
+            <div className="container max-w-6xl mx-auto px-4 py-2 flex flex-col gap-2">
+              {items.map((i) => (
+                <Link
+                  key={i.href}
+                  href={i.href}
+                  onClick={() => setOpen(false)}
+                  className="py-2"
+                >
+                  {i.label}
+                </Link>
+              ))}
+              <Link
+                href="/destinations"
+                className="btn btn-primary w-full"
+                onClick={() => setOpen(false)}
+              >
+                Explore
+              </Link>
+            </div>
+          </div>
+        )}
+      </div>
     </header>
   );
 }

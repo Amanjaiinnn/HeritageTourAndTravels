@@ -97,20 +97,17 @@ const HeroCarousel = () => {
 
       {/* Content Overlay */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4 z-20 pointer-events-none">
-        <span className="badge pointer-events-auto bg-white/20 text-white px-3 py-1 text-xs md:text-sm font-semibold rounded-full backdrop-blur-sm">Curated getaways</span>
+        
         <h1 className="text-4xl md:text-5xl font-extrabold mt-4 tracking-tight text-white">
           Discover places you'll <span className="text-blue-400">love</span>
         </h1>
-        <p className="text-slate-200 mt-4 max-w-prose">
-          Modern, fuss-free travel ideas across India & beyond. Handpicked spots,
-          flexible plans, real experiences.
-        </p>
+        
         <div className="mt-6 flex gap-3 pointer-events-auto">
           <a href="#destinations" className="px-6 py-3 font-semibold rounded-full transition duration-300 ease-in-out bg-blue-500 text-white hover:bg-blue-600">
             Popular Destinations
           </a>
           <a href="/packages" className="px-6 py-3 font-semibold rounded-full transition duration-300 ease-in-out bg-transparent text-white border border-white hover:bg-white hover:text-black">
-            Experiences
+            Vehicles
           </a>
         </div>
       </div>

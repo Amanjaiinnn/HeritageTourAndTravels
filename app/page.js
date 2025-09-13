@@ -6,6 +6,7 @@ import PackageCard from "@/components/PackageCard";
 import CityCarousel from "@/components/CityCarousel";
 import Dehati from "@/components/Dehati";
 import VehicleCarousel from "@/components/VehicleCarousel";
+import ReviewCarousel from "@/components/ReviewCarousel";
 
 export default function HomePage() {
   const [destinations, setDestinations] = useState([]);
@@ -29,7 +30,7 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold">Curated Tours</h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
-          {destinations.slice(0,6).map(d => <DestinationCard key={d.id} item={d} />)}
+          {destinations.slice(0,30).map(d => <DestinationCard key={d.id} item={d} />)}
         </div>
       </section>
 
@@ -39,6 +40,13 @@ export default function HomePage() {
 
       {/* 🔹 Now it will use vehicles.json instead of hardcoded array */}
       <VehicleCarousel vehicles={vehicles} />
+
+      <div>
+      <h1 className="text-3xl font-bold text-center mt-10">
+        What Our Customers Say
+      </h1>
+      <ReviewCarousel />
+      </div>
 
       {/* <section id="packages" className="section">
         <div className="flex items-center justify-between">

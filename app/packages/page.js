@@ -29,7 +29,7 @@ export default function PackagesPage() {
         {
       id: 4,
       name: "Urbania (17 Seater) - Fully AC",
-      image: "/18.png",
+      image: "/urbania.webp",
       rate: "₹35/km + ₹250/day (Journey Charge)",
       category: "Group & Family Travel",
     },

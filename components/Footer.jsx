@@ -30,19 +30,11 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li><Link className="link" href="/about">About</Link></li>
             <li><Link className="link" href="/contact">Contact</Link></li>
-            <li><Link className="link" href="/privacy">Privacy</Link></li>
+            
             <li><Link className="link" href="/terms">Terms</Link></li>
           </ul>
         </div>
-        <div>
-          <div className="font-semibold mb-2">Explore</div>
-          <ul className="space-y-2 text-sm">
-            <li><Link className="link" href="/packages?tag=romantic">Romantic</Link></li>
-            <li><Link className="link" href="/packages?tag=adventure">Adventure</Link></li>
-            <li><Link className="link" href="/packages?tag=beach">Beach</Link></li>
-            <li><Link className="link" href="/destinations">Destinations</Link></li>
-          </ul>
-        </div>
+        
         <div>
           <div className="font-semibold mb-2">Contact</div>
           <div className="text-sm text-slate-600 space-y-2">
@@ -99,6 +91,48 @@ export default function Footer() {
             className="hover:text-brand-700"
           >
             Shankar Steel Opposite Ramlila Maidan Gorakhnath, Gorakhpur- 273015
+          </a>
+        </div>
+      </div>
+      <div className="flex items-start gap-2">
+        <MapPin className="w-4 h-4 mt-1 text-brand-700" />
+        <div>
+          <span className="font-semibold">Address 4:</span>{" "}
+          <a 
+            href="https://maps.app.goo.gl/JB99JmjmifUSi6hv5?g_st=aw" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-brand-700"
+          >
+            Varanasi city railway station, Jalalipura, Varanasi, Uttar Pradesh 221002
+          </a>
+        </div>
+      </div>
+      <div className="flex items-start gap-2">
+        <MapPin className="w-4 h-4 mt-1 text-brand-700" />
+        <div>
+          <span className="font-semibold">Address 5:</span>{" "}
+          <a 
+            href="https://maps.app.goo.gl/6rwV1GSvPRkyhEoK6?g_st=awb" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-brand-700"
+          >
+            Infrontoff Arya Sanskar Bhawan, Bhikhapur,Deokali, Ayodhya-224001
+          </a>
+        </div>
+      </div>
+      <div className="flex items-start gap-2">
+        <MapPin className="w-4 h-4 mt-1 text-brand-700" />
+        <div>
+          <span className="font-semibold">Address 6:</span>{" "}
+          <a 
+            href="https://maps.app.goo.gl/ERkaN9jevEqkMYoK7" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="hover:text-brand-700"
+          >
+            B292, Awash Vikash Colony, Indira Nagar Raebareli 229001
           </a>
         </div>
       </div>
