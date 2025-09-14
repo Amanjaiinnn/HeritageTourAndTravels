@@ -28,7 +28,7 @@ export default function VaranasiPage() {
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
       <div className="relative h-80 w-full">
-        <Image src="/varanasi.jpg" alt="Varanasi" fill className="object-cover" />
+        <Image src="/tour6a.jpg" alt="Varanasi" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-4xl font-bold">Spiritual Varanasi & Ganga Aarti</h1>
           <p className="mt-2 text-lg">3 Days / 2 Nights</p>

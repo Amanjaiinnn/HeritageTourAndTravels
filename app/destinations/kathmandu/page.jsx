@@ -29,7 +29,7 @@ export default function KathmanduPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <div className="relative h-80 w-full">
-        <Image src="/kathmandu.jpg" alt="Kathmandu" fill className="object-cover" />
+        <Image src="/tour23a.jpg" alt="Kathmandu" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-4xl font-bold">Kathmandu Valley Heritage Tour</h1>
           <p className="mt-2 text-lg">5 Days / 4 Nights</p>

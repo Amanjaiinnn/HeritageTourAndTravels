@@ -28,7 +28,7 @@ export default function PokharaPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <div className="relative h-80 w-full">
-        <Image src="/pokhara.jpg" alt="Pokhara" fill className="object-cover" />
+        <Image src="/tour22a.jpg" alt="Pokhara" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-4xl font-bold">Pokhara & Phewa Lake Nepal Tour</h1>
           <p className="mt-2 text-lg">4 Days / 3 Nights</p>

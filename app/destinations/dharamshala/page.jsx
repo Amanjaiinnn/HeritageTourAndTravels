@@ -28,7 +28,7 @@ export default function DharamshalaPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <div className="relative h-80 w-full">
-        <Image src="/dharamshala.jpg" alt="Dharamshala" fill className="object-cover" />
+        <Image src="/tour15a.jpg" alt="Dharamshala" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-4xl font-bold">Dharamshala & McLeodganj Spiritual Retreat</h1>
           <p className="mt-2 text-lg">4 Days / 3 Nights</p>

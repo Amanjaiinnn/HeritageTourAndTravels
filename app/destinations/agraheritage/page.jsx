@@ -27,7 +27,7 @@ export default function AgraPage() {
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
       <div className="relative h-80 w-full">
-        <Image src="/agra.jpg" alt="Agra" fill className="object-cover" />
+        <Image src="/tour7a.jpg" alt="Agra" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-4xl font-bold">Agra Heritage & Taj Mahal Tour</h1>
           <p className="mt-2 text-lg">2 Days / 1 Night</p>

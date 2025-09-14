@@ -27,7 +27,7 @@ export default function VaishnoDeviPage() {
   return (
     <div className="min-h-screen bg-slate-50">
       <div className="relative h-80 w-full">
-        <Image src="/vaishnodevi.jpg" alt="Vaishno Devi" fill className="object-cover" />
+        <Image src="/tour26a.jpg" alt="Vaishno Devi" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-white text-center">
           <h1 className="text-4xl font-bold">Vaishno Devi Spiritual Yatra</h1>
           <p className="mt-2 text-lg">3 Days / 2 Nights</p>
