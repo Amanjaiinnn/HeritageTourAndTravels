@@ -2,7 +2,7 @@
   { "id": 1, "name": "Tempo Traveller (9 Seater) - Fully AC", "image": "/traveller-9.png", "rate": "₹22/km ", "category": "Group & Family Travel" },
   { "id": 2, "name": "Tempo Traveller (14 Seater) - Fully AC", "image": "/Traveller-13.png", "rate": "₹24/km ", "category": "Group & Family Travel" },
   { "id": 3, "name": "Tempo Traveller (17 Seater) - Fully AC", "image": "/18.png", "rate": "₹27/km ", "category": "Group & Family Travel" },
-  { "id": 3, "name": "Urbania (16 Seater) - Fully AC", "image": "/urbania.png", "rate": "₹35/km ", "category": "Group & Family Travel" },
+  { "id": 3, "name": "Urbania (16 Seater) - Fully AC", "image": "/urbania.webp", "rate": "₹35/km ", "category": "Group & Family Travel" },
   { "id": 4, "name": "Tempo Traveller (22 Seater) - Fully AC", "image": "/Traveller-35.png", "rate": "₹32/km ", "category": "Group & Family Travel" },
   { "id": 5, "name": "Tempo Traveller (25 Seater) - Fully AC", "image": "/Traveller-35.png", "rate": "₹35/km ", "category": "Group & Family Travel" },
   { "id": 6, "name": "Luxury Bus (30 Seater) - Fully AC", "image": "/Bus-1.jpeg.webp", "rate": "₹42/km ", "category": "Group & Family Travel" },
