@@ -8,6 +8,7 @@ import CityCarousel from "@/components/CityCarousel";
 import Intro from "@/components/Intro";
 import VehicleCarousel from "@/components/VehicleCarousel";
 import ReviewCarousel from "@/components/ReviewCarousel";
+import GooglePhotosCarousel from "@/components/GooglePhotosCarousel";
 
 export default function HomePage() {
   const [destinations, setDestinations] = useState([]);
@@ -49,7 +50,8 @@ export default function HomePage() {
       <ReviewCarousel />
       </div>
 
-      
+      <GooglePhotosCarousel />
+
     </div>
   );
 }

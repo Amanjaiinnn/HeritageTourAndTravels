@@ -154,7 +154,7 @@ export default function Footer() {
 <div className="font-semibold mb-0">Follow us</div>
       <div className="flex items-center gap-4 pt-3">
         <a
-          href="https://www.youtube.com/@HTTHeritageLucknowTravels"
+          href="https://youtube.com/@heritagetourtravels?si=HVimudvjWY1_BCGN"
           target="_blank"
           rel="noopener noreferrer"
           className="text-red-600 hover:text-red-800 transition"

@@ -171,7 +171,7 @@ export default function ContactPage() {
               Connect With Us
             </h3>
             <div className="flex flex-wrap gap-5">
-              <a href="https://www.youtube.com/@HTTHeritageLucknowTravels" target="_blank" className="flex items-center gap-2 hover:text-red-600">
+              <a href="https://youtube.com/@heritagetourtravels?si=HVimudvjWY1_BCGN" target="_blank" className="flex items-center gap-2 hover:text-red-600">
                 <FaYoutube className="w-5 h-5" /> YouTube
               </a>
               <a href="https://www.instagram.com/heritage_tour_and_travels?igsh=ZGxwYjRzY2JxY3g2" target="_blank" className="flex items-center gap-2 hover:text-pink-600">
