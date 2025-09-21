@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import slides from "@/data/Gallery"; // adjust path if needed
+import slides from "@/data/gallery"; // adjust path if needed
 
 export default function HeritageCarousel() {
   const [current, setCurrent] = useState(0);
